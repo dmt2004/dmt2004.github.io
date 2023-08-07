@@ -1,0 +1,55 @@
+body, html {
+    width: 160%;
+    height: 100%;
+    margin: 0;
+    background: #000000;
+    background: black;
+    background-position: top center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .countdown-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row-reverse; /* Đảo ngược thứ tự hiển thị của hai phần tử con */
+  }
+  
+  .ball-container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  canvas {
+    width: 40%;
+    height: 40%;
+    display: block;
+    position: relative;
+    background: transparent;
+    align-items: center;
+  }
+  
+  .countdown-timer {
+    font-size: 24px;
+    color: #fff;
+    padding: 15px;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+
+  
+  

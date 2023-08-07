@@ -1,0 +1,147 @@
+body {
+    background: url('assets/img/83d1a0606cfd45b4ed53f268c9bf30f8.gif');
+    background-size: cover;
+    background-position-y: -80px;
+    font-size: 16px;
+}
+
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-login {
+    max-width: 400px;
+    background: url('assets/img/hinh-nen-dong-iphone-31.gif');
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(106, 5, 91, 0.8);
+}
+
+.form-heading {
+    font-size: 25px;
+    color: #57064c;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    border-bottom: 1px solid #57064c;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.form-group i {
+    color: #57064c;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.form-input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #57064c;
+    flex-grow: 1;
+}
+
+.form-input::placeholder {
+    color: #57064c;
+}
+
+#eye {
+    cursor: pointer;
+}
+
+#eye .toggle-text {
+    color: #57064c;
+    font-size: 14px;
+    padding-top: 5px;
+    cursor: pointer;
+    user-select: none; /* Ngăn chặn việc chọn và bôi đen chữ ẩn/hiện */
+}
+
+
+
+.form-submit {
+    background: transparent;
+    border: 1px solid #57064c;
+    color: #57064c;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+}
+
+.form-submit:hover {
+    border: 1px solid #54a0ff;
+}
+
+.card {
+	border-radius: 15px;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+/*  */
+  .my {
+	padding: 20px;
+	transition: transform 0.3s ease-in-out; /* Thêm hiệu ứng chuyển động (transition) cho thuộc tính transform */
+  }
+  .my:hover {
+	transform: scale(1.1); /* Thu nhỏ phần tử khi di chuột vào */
+  }
+
+  .mypass {
+	padding: 20px;
+    cursor: pointer;
+	transition: transform 0.3s ease-in-out; /* Thêm hiệu ứng chuyển động (transition) cho thuộc tính transform */
+  }
+  .mypass:hover {
+	transform: scale(1.1); /* Thu nhỏ phần tử khi di chuột vào */
+  }
+  
+  .rotate-gif {
+	transform: rotate(-180deg);
+  }
+  
+
+  .custom-video-size {
+	width: auto;
+  }
+  
+
+  .custom-image-size {
+	width: auto; /* Chỉnh kích thước ảnh chiều rộng sẽ chiếm toàn bộ khung chứa */
+	height: auto; /* Tự động tính toán chiều cao dựa trên tỷ lệ kích thước gốc của ảnh */
+	max-height: 400px; /* Chiều cao tối đa của ảnh, nếu ảnh cao hơn thì nó sẽ bị thu nhỏ xuống */
+  }
+  
+  
+
+
+  /* Thêm CSS để chỉnh độ rộng và căn giữa input */
+.form-group {
+    border-bottom: 1px solid #57064c;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center; /* Thêm dòng này để căn giữa input */
+}
+
+.form-input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #57064c;
+    flex-grow: 1;
+}
+
+.form-input::placeholder {
+    color: #57064c;
+}

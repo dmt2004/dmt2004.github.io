@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: right;
+  }
+  canvas {
+    width: 20%;
+    height: 20%;
+  }
+  
